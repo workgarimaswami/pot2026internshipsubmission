@@ -1,179 +1,204 @@
-🎯 Project Overview
+# 📊 Proof of Talk 2026 – Interactive Performance Dashboard
 
-This project delivers an interactive performance dashboard for Proof of Talk 2026, designed to help executives and marketing teams monitor event performance, marketing ROI, sales pipeline health, and forecasting insights.
+An interactive **business intelligence dashboard** designed to monitor marketing performance, sales pipeline health, and forecasting insights for **Proof of Talk 2026**.
 
-The dashboard transforms raw operational data into actionable insights through data cleaning, machine learning analysis, and visual analytics.
+Built using **Python, Streamlit, and Plotly**, this dashboard transforms raw operational data into **actionable insights for executives and marketing teams**.
 
-The goal is to enable data-driven decision making for:
+---
 
-Marketing spend optimization
+# 🎯 Project Overview
 
-Lead conversion improvement
+This project delivers an **interactive performance dashboard** for **Proof of Talk 2026**, helping executives and marketing teams monitor event performance and make data-driven decisions.
 
-Event attendance forecasting
+The dashboard transforms raw operational data into **actionable insights** through:
 
-Sales pipeline risk detection
+- Data cleaning and preprocessing
+- Machine learning analysis
+- Interactive visual analytics
 
-The system provides a CEO-friendly interface where critical metrics can be understood within 30 seconds.
+The primary objective is to enable **data-driven decision making** for:
 
-🚀 Key Features
-👑 CEO 30-Second View
+- Marketing spend optimization  
+- Lead conversion improvement  
+- Event attendance forecasting  
+- Sales pipeline risk detection  
 
-A high-level summary showing the most critical KPIs:
+The system provides a **CEO-friendly interface** where critical metrics can be understood in **under 30 seconds**.
 
-Total Leads Generated
+---
 
-Lead Conversion Rate
+# 🚀 Key Features
 
-Pipeline Value
+## 👑 CEO 30-Second View
 
-Best Performing Marketing Channel
+A high-level summary of the most important KPIs including:
 
-Cost Per Acquisition (CPA)
+- Total Leads Generated  
+- Lead Conversion Rate  
+- Pipeline Value  
+- Best Performing Marketing Channel  
+- Cost Per Acquisition (CPA)
 
-Includes progress tracking for event targets:
+The dashboard also tracks **progress toward event targets**:
 
-Delegate acquisition progress
+- Delegate acquisition progress  
+- Sponsor acquisition progress  
 
-Sponsor acquisition progress
+---
 
-📈 Marketing Channel Performance
+## 📈 Marketing Channel Performance
 
-Compares marketing channels based on:
+Compare marketing channels based on:
 
-ROI (Return on Investment)
-
-Revenue generated
-
-Marketing spend
-
-Cost per acquisition (CPA)
+- ROI (Return on Investment)  
+- Revenue generated  
+- Marketing spend  
+- Cost per acquisition (CPA)
 
 Visualizations include:
 
-ROI bar charts
+- ROI bar charts  
+- CPA vs Revenue bubble charts  
+- Channel performance classification:
+  - High Performer
+  - Needs Review
+  - Underperforming
 
-CPA vs Revenue bubble charts
+---
 
-Performance classification (High Performer / Needs Review / Underperforming)
+## 🔄 Sales Funnel Analysis
 
-🔄 Sales Funnel Analysis
+Visualizes the **entire sales pipeline** from lead generation to closed deals.
 
-Visualizes the entire deal pipeline from lead generation to closed deals.
+Pipeline stages analyzed:
 
-Stages analyzed:
+- Contacted  
+- Lead  
+- Qualified  
+- Negotiation  
+- Proposal Sent  
+- Closed Won  
+- Closed Lost  
 
-Contacted
+Additional insights include:
 
-Lead
+- Conversion rate by lead source  
+- Funnel drop-off detection  
 
-Qualified
+---
 
-Negotiation
-
-Proposal Sent
-
-Closed Won
-
-Closed Lost
-
-Additional insights:
-
-Conversion rate by lead source
-
-Funnel drop-off detection
-
-🔮 Sales Forecasting
+## 🔮 Sales Forecasting
 
 Forecasts upcoming performance using historical trends.
 
 Includes:
 
-Monthly deal prediction
+- Monthly deal prediction  
+- Delegate acquisition forecast  
+- Sponsor acquisition forecast  
+- Gap analysis against event targets  
 
-Delegate acquisition forecast
+These forecasts help determine whether **June 2026 event targets will be met**.
 
-Sponsor acquisition forecast
+---
 
-Gap analysis against event targets
+## 💡 Data-Driven Recommendations
 
-This helps identify whether June 2026 targets will be met.
+The dashboard generates **automated strategic recommendations** based on analytical insights.
 
-💡 Data-Driven Recommendations
+Examples include:
 
-Automatically generated recommendations based on analytics insights, including:
-
-Marketing budget reallocation
-
-Referral program activation
-
-Pipeline recovery strategies
-
-Campaign optimization
+- Marketing budget reallocation  
+- Referral program activation  
+- Pipeline recovery strategies  
+- Campaign optimization  
 
 Each recommendation includes:
 
-Priority level
+- Priority level  
+- Timeline  
+- Suggested action plan  
 
-Timeline
+---
 
-Suggested action plan
+## 📧 Executive Summary Memo
 
-📧 Executive Summary Memo
+The system automatically generates a **CEO-ready executive memo** summarizing:
 
-The system automatically generates a CEO-ready executive memo summarizing:
+- Critical insights  
+- Recommended strategic actions  
+- Forecast performance  
+- Immediate priorities  
 
-Critical insights
+The memo can be **downloaded directly from the dashboard**.
 
-Recommended strategic actions
+---
 
-Forecast performance
+# 🧠 AI & Data Analysis Approach
 
-Immediate priorities
+The analysis combines **traditional data analytics with AI-assisted insights**.
 
-The memo can be downloaded directly from the dashboard.
+AI tools used during development:
 
-🧠 AI & Data Analysis Approach
+- **Claude 3** – pattern recognition and insight generation  
+- **ChatGPT-4** – structured explanation and writing support  
+- **GitHub Copilot** – code assistance  
 
-The analysis combines traditional data analytics with AI-assisted insights.
+AI tools were used as **analytical collaborators**, while all insights were validated through data analysis.
 
-Tools used:
+---
 
-Claude 3 – pattern discovery and insight generation
+# 🛠 Technology Stack
 
-ChatGPT-4 – structured explanation of findings
+## Programming
+- Python
 
-GitHub Copilot – code assistance
+## Data Processing
+- Pandas  
+- NumPy  
 
-AI tools were used as analytical partners, while all final insights were validated through data analysis.
+## Machine Learning
+- Scikit-learn  
+- XGBoost  
 
-🛠 Technology Stack
-Programming
+## Visualization
+- Plotly  
+- Plotly Express  
 
-Python
+## Dashboard Framework
+- Streamlit  
 
-Data Processing
+## Deployment
+- Streamlit Cloud  
 
-Pandas
+---
 
-NumPy
+# 📊 Dashboard Capabilities
 
-Machine Learning
+The dashboard enables teams to:
 
-Scikit-learn
+- Monitor **marketing campaign performance**
+- Analyze **sales funnel efficiency**
+- Forecast **event attendance and sponsorships**
+- Detect **pipeline risks early**
+- Make **data-driven strategic decisions**
 
-XGBoost
+---
 
-Visualization
+# 👩‍💻 Author
 
-Plotly
+**Garima Swami**  
+AI Engineer | Data Analyst | MSc Artificial Intelligence  
 
-Plotly Express
+📍 Cottbus, Germany  
 
-Dashboard Framework
+---
 
-Streamlit
+# ⭐ Internship Project
 
-Deployment
+This project was created as part of a **Data Analyst Internship application for XVentures** and demonstrates:
 
-Streamlit Cloud
+- Business intelligence dashboard development  
+- Data analysis and forecasting  
+- Marketing ROI analytics  
+- Executive-level data storytelling
